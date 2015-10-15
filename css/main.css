@@ -1,0 +1,284 @@
+header{
+	padding:15px 0;
+	margin:0;
+	color:#fff;
+	border-bottom:solid #333 1px;
+	background:#333;
+}
+
+nav ul{
+	list-style-type:none;
+	padding-top:34px;
+	margin:0 -15px 0 0;
+	float;right;
+	font-size:14px;
+	line-height:14px;
+	text-transform:uppercase;
+	white-space:nowrap;
+}
+
+nav li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+nav li:hover a:{
+	background:inherit;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px 15px;
+	color:#eee;
+	text-shadow:2px 2px 4px #000;
+}
+
+nav a:hover{
+	color:#fff;
+}
+
+#fondo{
+	background-image:url(../img/img-home.png);
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+}
+
+#linea {
+width:100%;
+position:absolute;
+transform:rotate(-45deg); 
+}
+
+html{
+	overflow-x:hidden;
+}
+
+.logo{
+	width:50%;
+	height:50%;
+	margin-top:-5%;
+	margin-left:39%;
+	position:absolute;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+.font{
+	font-size:40px;
+	color:white !important;
+	text-align:center;
+	padding-top:10%;
+
+}
+
+nav a:hover {
+	background-color:transparent;
+	border:1px solid white;
+}
+
+.button{
+	background-color:gray;
+	width:300px;
+	height:50px;
+	margin:2.5%;
+	padding:1%;
+	margin-left:35%;
+	text-align:center;
+	text-transform:capitalize;
+    color:white;
+    float: left;
+    border: 1px solid #339900;
+    border-radius:10px;
+}
+
+.button2{
+	background-color:red;
+	color:#FFF;
+	width:300px;
+	height:100px;
+	padding-top:1%;
+	text-align:center;
+	text-transform:uppercase;
+    float:left;
+    border:1px solid red;
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+
+.button3{
+	background-color:#78B964;
+	color:;
+	width:150px;
+	height:50px;
+	padding:15px;
+	text-align:center;
+	text-transform:capitalize;
+    float: left;
+    border: 1px solid #339900;
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+nav a{
+	text-decoration:none;
+	padding:10px 15px;
+	color:white;
+	font-size:20px;
+}
+
+/*aqui es el enlace del boton */
+.hover{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode:forwards;
+   animation-duration: 1s;  
+   animation-fill-mode:fordwards;   
+}
+
+.hover:hover{
+    cursor:pointer;
+    -webkit-animation-name: hoverAnim;
+    animation-name: hoverAnim;
+}
+
+/* Iconos de zona de informaciòn*/
+
+div .marg-top8 h2{
+	font-size: 18px;
+	margin-top: -5%;
+	margin-left: 5%
+}
+div .headerinfo h2{
+	font-size:28px
+}
+
+div .headerinfo p{
+	font-size: 25px;
+}
+
+.icon{
+	width: 7%;
+    margin-left: -6%;
+    padding-top: 8%;
+}
+
+hr{
+	background-color: #70b262;
+	width: 90%;
+	height:5px;
+}
+
+div .marg-top8 p{
+	font-size: 14px;
+    color: #d1a96c
+}
+
+.marg-tl{
+    margin-top: 3%;
+    margin-left: 5%
+}
+
+.textog{
+	text-align: center;
+	color:white !important;
+	font-size: 25px;
+	padding-top: 5%;
+}
+
+/*Codigo maciel */
+
+*{
+	text-decoration: none;
+	color: #635959;
+	font-style: normal;
+}
+
+.info{
+	color: #2c3e50;
+	font-size: 28px;
+}
+
+.info2{
+	color: #2c3e50;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.hand{
+	width: 538px;
+	height: 438px;
+	position: absolute;
+	clip-left: rect(250px);	
+}
+
+.hr{
+	width: 310px;
+	height: 5px;
+	background-color: #70B262;
+}
+
+.boxinfo{
+	margin-top: 40px;
+	margin-left: 35px;
+}
+
+ul.newlogs{
+	font-size: 12px;
+	font-style: uppercase;
+	padding-left: 150px;
+	float: left;
+}
+
+nav li {
+	position: relative;
+	float: left;
+	margin: 0;
+}
+
+.box2{
+	background-color: #463D42;
+	height: 250px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+.box4{
+	background-color: #EDEDDE;
+	color: #B6B047;
+	height: 250px;
+	margin-top: 220px;
+	padding-top: 50px;
+}
+
+.caja{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: -5px;
+	border-style: groove;
+	border-width: 1px;
+}
+
+div.caja:hover{
+	background-color: #011A60;
+}
+
+.caja2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: -5px;
+	border-style: groove;
+	border-width: 1px;
+}
+
+div.caja2:hover{
+	background-color: #00C4EB;
+}
